@@ -1,0 +1,146 @@
+/* NavBar */
+
+.navBar{
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+    width: 100%;
+}
+
+.navBar-div{
+    align-items: center;
+    display: flex;
+}
+
+.navBar-div a{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 0 10px;
+}
+
+.navBarImgUser{
+    width: 30px;
+}
+
+.navBarApps{
+    width: 30px;
+}
+
+.navBarImgUser img {
+    border-radius: 50%;
+}
+
+.navBar-div .navBarAnchor {
+    border-bottom: 1px solid transparent;
+    color: #8F8F8F;
+    margin: 0 10px;
+}
+
+.navBar-div .navBarAnchor:hover {
+    border-bottom: 1px solid #8F8F8F;
+    line-height: 15px;
+}
+
+.ButtonApps{
+    background-color: #737373;
+    height: 15px;
+    position: relative;
+    width: 15px;
+}
+
+.ButtonApps:hover {
+    background-color: black;
+}
+
+/* section */
+
+.googleSearchContainer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60%;
+    width: 100%;
+}
+.googleSearchContainer > div {
+    margin: 10px 0;
+}
+
+.googleImage{
+    width: 280px;
+}
+
+.googleSearchInput{
+    border: 1px solid #DFE1E5;
+    border-radius: 40px;
+    display: flex;
+    height: 50px;
+    padding: 0 15px;
+    width: 550px;
+}
+
+.googleSearchInput:hover{
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+
+.googleInput{
+    align-items: center;
+    display: flex;
+    flex: 10;
+}
+.googleInput input {
+    border: none;
+    height: 90%;
+    outline: none;
+    width: 100%;
+}
+
+.googleInputIcons{
+    align-items: center;
+    display: flex;
+    flex: 1;
+    height: 100%;
+}
+
+.googleInputIcons > a {
+    margin: 0 10px;
+}
+.googleMicrofone{
+    width: 25px;
+}
+
+.googleSearchButtons > button {
+    background-color: #F2F2F2;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+    outline: none;
+    padding: 10px;
+}
+
+.googleSearchButtons > button:hover {
+    border: 1px solid #C6C6C6;
+}
+
+@media (max-width: 768px){ 
+    .googleSearchInput{
+        width: 90%;
+    }
+}
+
+/* Footer - não deu tempo de terminar */
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer a{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 0 10px;
+    color: #222;
+}
